@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "simplestatusmod",
+	"version": "${version}",
+	"name": "SimpleStatusMod",
+	"description": "Server-side status system for Minecraft.",
+	"authors": [
+		"LukevonErden"
+	],
+	"license": "CC0-1.0",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"simple.status.SimpleStatusMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
